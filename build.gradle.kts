@@ -4,6 +4,7 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent
 plugins {
     id("java")
     application
+    id("io.freefair.lombok") version "8.6"
 }
 
 application {
@@ -24,6 +25,8 @@ dependencies {
     implementation("gg.jte:jte:3.1.9")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("net.datafaker:datafaker:2.0.1")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.15.0")
 }
 
 tasks.test {

@@ -2,5 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java/org/example/hexlet/HelloWorld.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/hexlet/data/DataCourses.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/jte/courses/index.jte" charset="UTF-8" />
   </component>
 </project>
